@@ -1,7 +1,10 @@
-# Credit Scoring Model
+# Breast Cancer Prediction using Machine Learning
 
-## Objective
-The objective of this project is to predict creditworthiness using machine learning classification algorithms.
+## Overview
+This project predicts whether a breast tumor is malignant or benign using Machine Learning classification algorithms. Multiple models are trained and evaluated to determine the best-performing classifier.
+
+## Dataset
+The project uses the Breast Cancer Wisconsin Dataset provided by Scikit-Learn.
 
 ## Algorithms Used
 - Logistic Regression
@@ -23,14 +26,21 @@ The objective of this project is to predict creditworthiness using machine learn
 | Decision Tree | 94.74% |
 | Random Forest | 96.49% |
 
-## Best Model
-Random Forest achieved the highest accuracy.
+### Best Model
+Random Forest achieved the highest accuracy of 96.49%.
 
 ## Technologies Used
 - Python
-- Pandas
 - Scikit-Learn
 - Matplotlib
-## Accuracy Comparison Graph
+- NumPy
 
-![Accuracy Comparison](accuracy_comparison.png)
+## Output
+The project generates:
+- Classification Reports
+- Confusion Matrix
+- ROC-AUC Score
+- Accuracy Comparison Graph
+
+## Author
+Shweta Singh Rajput
